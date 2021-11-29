@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "http://localhost:8000/todos";
+const url = "https://repasoweb.herokuapp.com/todos";
 
 export const getTodos = () => axios.get(url);
 
